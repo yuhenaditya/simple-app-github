@@ -1,0 +1,6 @@
+version: "3"
+services:
+  webserver:
+    image: ghcr.io/yuhenaditya/nginx-btatest
+    ports:
+      - "8080:80"
